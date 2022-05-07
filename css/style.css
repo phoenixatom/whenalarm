@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+py-script{
+    color:#040B2C;
+}
+
+body{
+    background-color: #040B2C;
+    color: burlywood;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: lightblue;
+}
+
+#result, #result-1, #result-2, #result-3, #result-4, #result-5, #result-6 {
+    color: burlywood;
+    background-color: #202646;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p:empty
+{
+    display:none;
+}
+
+#result-6:empty ~ #recommended{
+    color: #040B2C;
+}
+
+.col-md-1-5 { width: 10.5%;}
+
+#text {
+    background-color: #040B2C;
+}
+
+#result-6, #result-5 {
+    border: 2.5px solid coral;
+    border-radius: 10px;
+}
+
+#footertext {
+    color: lightblue;
+}
